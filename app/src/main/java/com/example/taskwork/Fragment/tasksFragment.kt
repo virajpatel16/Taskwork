@@ -46,7 +46,7 @@ current
         }
 
 
-
+db.Tasks().Display()
         binding.rcvdata.layoutManager = LinearLayoutManager(context)
         binding.rcvdata.adapter = TaskAdepter(tasklist)
         update()
